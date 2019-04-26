@@ -58,7 +58,7 @@ update actor
 	set first_name = 'GROUCHO' where first_name = 'HARPO';
     
 -- 5a. You cannot locate the schema of the address table. Which query would you use to re-create it?
--- create schema sakila;
+create schema sakila;
 
 -- 6a. Use JOIN to display the first and last names, as well as the address, of each staff member. Use the tables staff and address:
 select first_name, last_name, address 
